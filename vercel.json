@@ -1,0 +1,20 @@
+{
+  "buildCommand": "pnpm build",
+  "devCommand": "pnpm dev",
+  "installCommand": "pnpm install",
+  "framework": "nextjs",
+  "env": [
+    {
+      "key": "DATABASE_URL",
+      "description": "Database connection string"
+    },
+    {
+      "key": "NEXT_PUBLIC_OPENWEATHER_API_KEY",
+      "description": "OpenWeatherMap API Key"
+    },
+    {
+      "key": "NEXT_PUBLIC_STORMGLASS_API_KEY",
+      "description": "Stormglass API Key"
+    }
+  ]
+}
