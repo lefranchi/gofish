@@ -13,8 +13,10 @@ import {
 } from '@mui/material';
 import Link from 'next/link';
 import FishIcon from '@mui/icons-material/Pets';
+import { useAuth } from '@/lib/useAuth';
 
 export default function LoginPage() {
+  const { login } = useAuth();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -26,14 +28,9 @@ export default function LoginPage() {
     setLoading(true);
 
     try {
-      // TODO: Implementar autenticação real
-      console.log('Login attempt:', { email, password });
-      // Simular delay
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      // Redirecionar para dashboard
-      window.location.href = '/dashboard';
+      await login(email, password);
     } catch (err) {
-      setError('Erro ao fazer login. Tente novamente.');
+      setError('Erro ao fazer login. Verifique suas credenciais.');
     } finally {
       setLoading(false);
     }
