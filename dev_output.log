@@ -1,0 +1,570 @@
+
+> gofish@0.1.0 dev /app
+> next dev
+
+ ⚠ Invalid next.config.js options detected:
+ ⚠     Unrecognized key(s) in object: 'swcMinify'
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+   ▲ Next.js 15.5.9
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.2:3000
+   - Environments: .env
+
+ ✓ Starting...
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+
+   We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+   The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+	- allowJs was set to true
+	- incremental was set to true
+	- include was updated to add '.next/types/**/*.ts'
+	- plugins was updated to add { name: 'next' }
+	- exclude was set to ['node_modules']
+
+   The following mandatory changes were made to your tsconfig.json:
+
+	- jsx was set to preserve (next.js implements its own optimized jsx transform)
+
+ ✓ Ready in 2s
+ ○ Compiling /login ...
+ ✓ Compiled /login in 14s (1757 modules)
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {keys: ..., values: ..., up: function up, down: ..., between: ..., only: ..., not: ..., unit: ...}
+                               ^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1520341995'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {keys: ..., values: ..., up: ..., down: function down, between: ..., only: ..., not: ..., unit: ...}
+                                          ^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3400300427'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {keys: ..., values: ..., up: ..., down: ..., between: function between, only: ..., not: ..., unit: ...}
+                                                        ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2110404619'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {keys: ..., values: ..., up: ..., down: ..., between: ..., only: function only, not: ..., unit: ...}
+                                                                   ^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3686779691'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {keys: ..., values: ..., up: ..., down: ..., between: ..., only: ..., not: function not, unit: ...}
+                                                                             ^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '823710443'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {mode: "light", primary: ..., secondary: ..., success: ..., warning: ..., error: ..., background: ..., common: ..., info: ..., grey: ..., contrastThreshold: ..., getContrastText: function getContrastText, augmentColor: ..., tonalOffset: ..., text: ..., divider: ..., action: ...}
+                                                                                                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2906177963'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {mode: "light", primary: ..., secondary: ..., success: ..., warning: ..., error: ..., background: ..., common: ..., info: ..., grey: ..., contrastThreshold: ..., getContrastText: ..., augmentColor: function augmentColor, tonalOffset: ..., text: ..., divider: ..., action: ...}
+                                                                                                                                                                                                        ^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2762731179'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {breakpoints: ..., direction: "ltr", components: ..., palette: ..., spacing: function spacing, shape: ..., typography: ..., containerQueries: ..., applyStyles: ..., unstable_sxConfig: ..., unstable_sx: ..., mixins: ..., shadows: ..., transitions: ..., zIndex: ..., toRuntimeSource: ...}
+                                                                               ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1097862475'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {fontFamily: ..., h1: ..., h2: ..., h3: ..., htmlFontSize: ..., pxToRem: function, fontSize: ..., fontWeightLight: ..., fontWeightRegular: ..., fontWeightMedium: ..., fontWeightBold: ..., h4: ..., h5: ..., h6: ..., subtitle1: ..., subtitle2: ..., body1: ..., body2: ..., button: ..., caption: ..., overline: ..., inherit: ...}
+                                                                           ^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2590675883'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {breakpoints: ..., direction: "ltr", components: ..., palette: ..., spacing: ..., shape: ..., typography: ..., containerQueries: function containerQueries, applyStyles: ..., unstable_sxConfig: ..., unstable_sx: ..., mixins: ..., shadows: ..., transitions: ..., zIndex: ..., toRuntimeSource: ...}
+                                                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '309307147'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {breakpoints: ..., direction: "ltr", components: ..., palette: ..., spacing: ..., shape: ..., typography: ..., containerQueries: ..., applyStyles: function applyStyles, unstable_sxConfig: ..., unstable_sx: ..., mixins: ..., shadows: ..., transitions: ..., zIndex: ..., toRuntimeSource: ...}
+                                                                                                                                                     ^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1634889963'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {themeKey: "borders", transform: function borderTransform}
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '451727595'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {themeKey: "borders", transform: function borderTransform}
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '451727595'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {themeKey: "borders", transform: function borderTransform}
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '451727595'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {themeKey: "borders", transform: function borderTransform}
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '451727595'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {themeKey: "borders", transform: function borderTransform}
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '451727595'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {themeKey: "borders", transform: function borderTransform}
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '451727595'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {themeKey: ..., style: function borderRadius}
+                         ^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3389408363'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {themeKey: "palette", transform: function paletteTransform}
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2612276939'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {themeKey: "palette", cssProperty: ..., transform: function paletteTransform}
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2403079947'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {themeKey: "palette", transform: function paletteTransform}
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2612276939'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function padding}
+          ^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '437916107'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function margin}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1757238507'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {cssProperty: false, transform: function transform}
+                                  ^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2099935211'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function gap}
+          ^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '736197419'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function rowGap}
+          ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2934797611'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function columnGap}
+          ^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1878092267'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {transform: function sizingTransform}
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1326329931'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {style: function maxWidth}
+          ^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2534931819'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {transform: function sizingTransform}
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1326329931'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {transform: function sizingTransform}
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1326329931'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {transform: function sizingTransform}
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1326329931'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {transform: function sizingTransform}
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1326329931'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {breakpoints: ..., direction: "ltr", components: ..., palette: ..., spacing: ..., shape: ..., typography: ..., containerQueries: ..., applyStyles: ..., unstable_sxConfig: ..., unstable_sx: function sx, mixins: ..., shadows: ..., transitions: ..., zIndex: ..., toRuntimeSource: ...}
+                                                                                                                                                                                               ^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2435652491'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {getAutoHeightDuration: function getAutoHeightDuration, create: ..., easing: ..., duration: ...}
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '1376497515'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {getAutoHeightDuration: ..., create: function create, easing: ..., duration: ...}
+                                       ^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '248511595'
+}
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {breakpoints: ..., direction: "ltr", components: ..., palette: ..., spacing: ..., shape: ..., typography: ..., containerQueries: ..., applyStyles: ..., unstable_sxConfig: ..., unstable_sx: ..., mixins: ..., shadows: ..., transitions: ..., zIndex: ..., toRuntimeSource: function stringifyTheme}
+                                                                                                                                                                                                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '2398780971'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ✓ Compiled in 32.9s (713 modules)
+ GET /login 500 in 46911ms
+ ✓ Compiled in 549ms (713 modules)
+ ✓ Compiled in 282ms (713 modules)
+ ELIFECYCLE  Command failed.
+[?25h

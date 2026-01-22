@@ -5,6 +5,7 @@ interface User {
   id: number;
   email: string;
   name: string;
+  role: string;
 }
 
 export const useAuth = () => {
@@ -48,6 +49,7 @@ export const useAuth = () => {
 
       localStorage.setItem('auth-token', token);
       localStorage.setItem('user', JSON.stringify(userData));
+      document.cookie = `auth-token=${token}; path=/; max-age=86400`;
       setUser(userData);
 
       router.push('/dashboard');
@@ -74,6 +76,7 @@ export const useAuth = () => {
 
       localStorage.setItem('auth-token', token);
       localStorage.setItem('user', JSON.stringify(userData));
+      document.cookie = `auth-token=${token}; path=/; max-age=86400`;
       setUser(userData);
 
       router.push('/dashboard');
@@ -86,6 +89,7 @@ export const useAuth = () => {
   const logout = () => {
     localStorage.removeItem('auth-token');
     localStorage.removeItem('user');
+    document.cookie = 'auth-token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT';
     setUser(null);
     router.push('/');
   };

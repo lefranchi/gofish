@@ -1,0 +1,41 @@
+
+> gofish@0.1.0 dev /app
+> next dev
+
+ ⚠ Invalid next.config.js options detected:
+ ⚠     Unrecognized key(s) in object: 'swcMinify'
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+   ▲ Next.js 15.5.9
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.2:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 2.2s
+ ○ Compiling /login ...
+ ✓ Compiled /login in 5.5s (1556 modules)
+ GET /login 200 in 6741ms
+ ✓ Compiled in 1340ms (716 modules)
+ ○ Compiling /middleware ...
+ ✓ Compiled /middleware in 795ms (114 modules)
+ ○ Compiling /api/auth ...
+ ✓ Compiled /api/auth in 2.2s (1564 modules)
+ POST /api/auth 200 in 2469ms
+ GET /login 200 in 110ms
+ ✓ Compiled in 594ms (1564 modules)
+ ✓ Compiled in 417ms (1564 modules)
+ GET /login 200 in 667ms
+ POST /api/auth 200 in 37ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 2.7s (1667 modules)
+ GET /dashboard 200 in 2892ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 628ms (1676 modules)
+ GET /admin 200 in 979ms
+ GET /login 200 in 314ms
+ POST /api/auth 200 in 27ms
+ GET /dashboard 200 in 54ms
+ GET /admin 200 in 90ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1211ms (1685 modules)
+ GET / 200 in 1310ms

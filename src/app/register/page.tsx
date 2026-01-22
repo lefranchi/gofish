@@ -13,8 +13,10 @@ import {
 } from '@mui/material';
 import Link from 'next/link';
 import FishIcon from '@mui/icons-material/Pets';
+import { useAuth } from '@/lib/useAuth';
 
 export default function RegisterPage() {
+  const { register } = useAuth();
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -34,12 +36,7 @@ export default function RegisterPage() {
     setLoading(true);
 
     try {
-      // TODO: Implementar registro real
-      console.log('Register attempt:', { name, email, password });
-      // Simular delay
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      // Redirecionar para login
-      window.location.href = '/login';
+      await register(name, email, password);
     } catch (err) {
       setError('Erro ao registrar. Tente novamente.');
     } finally {
